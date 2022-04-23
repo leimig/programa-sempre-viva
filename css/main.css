@@ -1,0 +1,48 @@
+a {
+    text-decoration: auto !important;
+}
+
+#logo {
+    margin-right: auto;
+    max-height: 60px;
+}
+
+.welcome-logo {
+    background-image: url("../img/logo/Logo@1x-Sem-nome-ou-slogan.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    bottom: -30%;
+    width: 398px;
+    height: 371px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
+.welcome-logo-sm {
+    background-image: url("../img/logo/Logo@1x-Sem-nome-ou-slogan.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -1%;
+    top: 10%;
+    width: 149px;
+    height: 135px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
+.carousel-item .row {
+    min-height: 500px;
+}
+
+.profile-pic {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+
