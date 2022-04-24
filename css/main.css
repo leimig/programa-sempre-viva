@@ -36,13 +36,18 @@ a {
 }
 
 .carousel-item .row {
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .profile-pic {
     border-radius: 100px;
     height: 200px;
     width: 200px;
+}
+
+.footer-logo {
+    height: auto;
+    width: 50px;
 }
 
 .bi-facebook {
