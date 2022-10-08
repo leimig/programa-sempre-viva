@@ -1,6 +1,6 @@
 const footerComponentTemplate = document.createElement("sempre-viva-footer-template");
 footerComponentTemplate.innerHTML = `
-${baseStyling}
+<hr>
 
 <footer class="container py-5">
     <div class="d-flex justify-content-center align-items-center mb-5">
@@ -42,8 +42,7 @@ ${baseStyling}
 class SempreVivaFooterComponent extends HTMLElement {
     constructor() {
         super();
-        this.attachShadow({ mode: "open" });
-        this.shadowRoot.appendChild(footerComponentTemplate);
+        this.appendChild(footerComponentTemplate);
     }
 }
 
